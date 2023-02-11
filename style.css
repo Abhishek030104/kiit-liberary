@@ -1,0 +1,103 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: ghostwhite;
+  }
+  .left img{
+    display: inline-block;
+    position: absolute;
+    left:60px;
+    top: 20px;
+    height: 85px;
+    width: auto;
+  }
+  .right img{
+    display: inline-block;
+    position: absolute;
+    right:100px;
+    top: 20px;
+    height: 85px;
+    width: auto;
+  }
+  .mid{
+    display: block;
+    width: 36%;
+    padding: 10px;
+    margin: 0px auto;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border: 1.3px solid #0cbcdf;
+    border-radius: 21px 4px 21px 0px;
+  }
+  .form{
+    display: inline-block;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 46px;
+  
+  }
+  .form form{
+    border: 2px solid black;
+    width: 300px;
+      padding: 8px;
+      border-radius: 14px 0px 30px 2px;
+  
+  }
+  .jama{
+    margin-left: 52px;
+  }
+  .sub{
+    border: 2px solid #8cb6b5;
+    border-radius: 7px 2px 5px 2px;
+    background-color: #0e5d62;
+    color: white;
+  }
+  .res{
+    margin-left: 14px;
+    border: 2px solid #8cb6b5;
+    border-radius: 7px 2px 5px 2px;
+     background-color: #0e5d62;
+    color: white;
+  }
+  .jama :hover{
+    color: #f9c639;
+  }
+  .feedback{
+        border-radius: 3px 24px 8px 24px;
+        display: block;
+      /* margin: 54px 277px; */
+      margin-top: 110px;
+      margin-left: 700px;
+      border: 2px solid black;
+      width: 274px;
+      padding: 14px 3px 12px 40px;
+  }
+  footer {
+    text-align: center;
+     background: black;
+      color: white;
+      padding: 9px 20px;
+    margin-top: 14.57%;
+  /*   width: 100%; */
+  }
+  .visit a{
+    text-decoration: none;
+    position: absolute;
+    display: block;
+    margin-top: 125px;
+    margin-left: 500px;
+    border: 2px solid #230599;
+    padding: 2px;
+    border-radius: 2px 7px 1px 6px;
+  }
+  .visit img{
+    position: absolute;
+    display: block;
+    height: 30px;
+    margin-top: 92px;
+    margin-left: 520px;
+  }
+  .feedback p{
+    color: #8e3c10;
+  }
